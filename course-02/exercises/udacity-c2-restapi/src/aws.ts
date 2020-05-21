@@ -32,7 +32,6 @@ export function getGetSignedUrl( key: string ): string{
 
     return url;
 }
-
 /* getPutSignedUrl generates an aws signed url to put an item
  * @Params
  *    key: string - the filename to be retreived from s3 bucket
